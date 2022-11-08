@@ -8,21 +8,13 @@ public class RverseString {
 		// TODO Auto-generated method stub
 		String s="mynameis";
 		System.out.println(s);
-		
-		//
-		
-		
-		for (int i = 0; i < s.length(); i++) {
-			System.out.print(s.charAt(i));
-			
-		}
-		
-		
+		String s1="";
 		//reverse using loop
 		for (int i = (s.length()-1); i >=0; i--) {
-			System.out.print(s.charAt(i));
+			s1=s1+s.charAt(i);
 			
 		}
+		System.out.println(s1);
 	}
 
 }
