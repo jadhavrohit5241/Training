@@ -1,0 +1,23 @@
+package com.te.java.string;
+
+public class Methods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String sample="ABCDEFGHZIJKLMNOPQRSTUVWXYZ";
+		String sample1="ABCDEFGHZIJKLMNOPQRSTUVWXYZ0";
+		System.out.println(sample);
+		
+		System.out.println(sample.concat("123456"));
+		System.out.println(sample.lastIndexOf('A'));
+		System.out.println(sample.lastIndexOf('a'));
+		System.out.println(sample.hashCode());
+		System.out.println(sample1.hashCode());
+		System.out.println("-----------------------------------------------------------------------------");
+		Integer integer=10;
+		Integer integer1=10;
+		System.out.println(integer==integer1);
+	}
+
+}

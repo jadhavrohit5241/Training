@@ -1,0 +1,14 @@
+package com.te.java.string;
+
+public class Methods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String sample="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+		System.out.println(sample);
+		
+
+	}
+
+}

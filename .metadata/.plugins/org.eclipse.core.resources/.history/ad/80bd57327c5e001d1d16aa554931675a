@@ -1,0 +1,9 @@
+package com.te.java.abstraction;
+
+public class Audi {
+
+	public Audi() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

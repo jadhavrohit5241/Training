@@ -1,0 +1,6 @@
+package com.te.java.abstraction;
+
+public interface Car {
+	
+
+}

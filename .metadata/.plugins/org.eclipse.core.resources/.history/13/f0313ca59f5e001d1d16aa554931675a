@@ -1,0 +1,17 @@
+package com.te.java.singleton;
+
+public class Mysinglton {
+	public static Mysinglton o1=new Mysinglton();
+	public Mysinglton getSinglton() {
+		
+		return o1;
+		
+	}
+
+	protected Mysinglton() {
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+}

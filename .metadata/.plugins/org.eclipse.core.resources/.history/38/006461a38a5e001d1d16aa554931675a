@@ -1,0 +1,27 @@
+package com.te.java.modifier.pack1;
+import com.te.java.modifier.pack2.*;
+
+public class Testpack1 {
+	private void myPrivateMethod() {
+
+	}
+
+	void myDefaultMethod() {
+
+	}
+
+	protected void myProtectedMetrhod() {
+
+	}
+
+	public void myPublicMethod() {
+
+	}
+
+	public static void main(String[] args) {
+
+		// TODO Auto-generated method stub
+
+	}
+
+}

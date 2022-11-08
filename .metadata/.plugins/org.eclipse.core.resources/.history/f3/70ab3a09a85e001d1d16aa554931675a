@@ -1,0 +1,15 @@
+package com.te.java.abstraction;
+
+
+public class Driver{
+
+	public void driver(Car c) {
+	
+		
+		
+		// TODO Auto-generated method stub
+		
+
+	}
+
+}

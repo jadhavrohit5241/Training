@@ -1,0 +1,10 @@
+package com.te.java.singleton;
+
+public class Test extends Mysinglton {
+  public static void main(String[] args) {
+	  
+	Test t=new Test();
+	Mysinglton m1=t.getSinglton();
+}
+
+}

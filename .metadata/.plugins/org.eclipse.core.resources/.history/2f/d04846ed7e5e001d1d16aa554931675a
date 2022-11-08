@@ -1,0 +1,14 @@
+package com.te.java.abstraction;
+
+public class Bmw implements Car {
+
+	public void speed() {
+	};
+
+	public void breaking() {
+	};
+
+	public void gear() {
+	};
+
+}

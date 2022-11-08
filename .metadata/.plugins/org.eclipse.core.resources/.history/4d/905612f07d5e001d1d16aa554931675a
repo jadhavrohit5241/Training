@@ -1,0 +1,15 @@
+package com.te.java.abstraction;
+
+public class Audi implements Car {
+
+	public void speed() {
+
+	};
+
+	public void breaking() {
+	};
+
+	public void gear() {
+	};
+
+}

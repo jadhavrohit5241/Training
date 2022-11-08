@@ -1,0 +1,12 @@
+package com.te.java.abstraction;
+
+
+public class Driver{
+
+	public void driver(Car c) {
+			c.breaking();
+			c.gear();
+			c.speed();
+	}
+
+}

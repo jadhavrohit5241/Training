@@ -1,0 +1,10 @@
+package com.te.java.modifier.pack1;
+
+public class Testpack11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

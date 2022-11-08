@@ -1,0 +1,13 @@
+package com.te.java.string;
+
+public class Strr {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String a = new String("ABC");
+		String b = new String("ABC");
+		
+		System.out.println(a==b);
+	}
+}

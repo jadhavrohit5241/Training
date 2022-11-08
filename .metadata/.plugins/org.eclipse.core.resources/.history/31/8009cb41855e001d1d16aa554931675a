@@ -1,0 +1,28 @@
+package com.te.java.abstraction;
+
+import java.util.Scanner;
+
+public class Service {
+	public Car carFact() {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("enter car brand");
+		String inputString = scanner.nextLine();
+		if ((inputString.toUpperCase()) == "AUDI") {
+			return new Audi();
+		} else if (inputString.toUpperCase() == "BMW") {
+			return new Bmw();
+		} else {
+			System.out.println("invalid input");
+			return null
+		}
+
+	}
+
+	public static void main(String[] args) {
+		Service service=new Service():
+		service.carFact();
+		
+
+	}
+
+}

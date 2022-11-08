@@ -1,0 +1,19 @@
+package com.te.java.string;
+
+import java.util.Iterator;
+
+public class RverseString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="mynameis";
+		System.out.println(s);
+		for (int i = 0; i < s.length(); i++) {
+			System.out.println(s.charAt(i));
+			
+		}
+				
+
+	}
+
+}

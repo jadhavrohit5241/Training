@@ -1,0 +1,27 @@
+package com.Enum;
+
+public class EnumSwitch {
+	public static void main(String[]ars) {
+	EnumGloble e=EnumGloble.AA;
+	switch (e) {
+	case AA: {
+		System.out.println(" from enumgloble");
+		break;
+	}
+	case DD: {
+		System.out.println("DD from enumgloble");
+		break;}
+	case BB: {
+		System.out.println("DD from enumgloble");
+		break;}
+	case CC: {
+		System.out.println("CC from enumgloble");
+		break;}
+	default:
+		throw new IllegalArgumentException("Unexpected value: ");
+	}
+		
+	}
+
+}
+ 

@@ -1,0 +1,15 @@
+package com.te.java.modifier.pack2;
+import com.te.java.modifier.pack1.*;
+
+public class Testpack2 extends Testpack1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	    Testpack1 testpack1=new	Testpack1();
+	    testpack1.myPublicMethod();
+	    Testpack1.
+	    
+
+	}
+
+}

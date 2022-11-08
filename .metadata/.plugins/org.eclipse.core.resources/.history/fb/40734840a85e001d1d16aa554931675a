@@ -1,0 +1,13 @@
+package com.te.java.abstraction;
+
+public class Customer{
+	public static void main(String[] args) {
+	
+		Service service=new Service();
+		Car car=service.carFact();
+		Driver d=new Driver();
+		d.driver(car);
+	}
+
+
+}

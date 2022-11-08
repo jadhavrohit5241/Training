@@ -1,0 +1,10 @@
+package com.te.java.abstraction;
+
+public interface Car {
+	
+	public void breaking();
+	
+	public void speed();
+
+	public void gear();
+}

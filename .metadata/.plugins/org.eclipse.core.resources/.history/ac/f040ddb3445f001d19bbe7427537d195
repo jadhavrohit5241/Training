@@ -1,0 +1,18 @@
+package com.te.java.string;
+
+public class Methods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String sample="ABCDEFGHZIJKLMNOPQRSTUVWXYZ";
+		System.out.println(sample);
+		
+		System.out.println(sample.concat("123456"));
+		System.out.println(sample.lastIndexOf('A'));
+		System.out.println(sample.lastIndexOf('z'));
+		System.out.println(sample.isEmpty());
+
+	}
+
+}

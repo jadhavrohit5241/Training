@@ -1,0 +1,20 @@
+package com.te.java.string;
+
+import java.util.StringTokenizer;
+
+public class Strr {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String a = new String("ABC");
+		String b = new String("ABC");
+		
+		StringTokenizer aStringTokenizer = new StringTokenizer("Im from Mumbai");
+		
+		while (aStringTokenizer.hasMoreElements()) {
+		
+			System.out.println(aStringTokenizer.nextToken());			
+		}
+	}
+}
